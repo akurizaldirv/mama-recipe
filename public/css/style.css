@@ -1,0 +1,60 @@
+a {
+    text-decoration: none;
+}
+
+.mini-container {
+    width: 100vh;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05) ;
+}
+
+.icon {
+    width: 20px;
+}
+
+.recipe-title {
+    height: 30vh;
+    margin-bottom: 50px;
+    background-image: url("../img/bg/dish1.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.hero {
+    height: 30vh;
+    margin-bottom: 50px;
+    background-image: url("../img/bg/dish2.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.overlay {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text {
+    position: absolute;
+    top: 18%;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.box {
+    border-radius: 10px;
+    padding: 30px 25px;
+    margin: 20px 0;
+    background-color: white;
+    font-size: 18px;
+}
+
+.box h3 {
+    font-weight: 800;
+}
